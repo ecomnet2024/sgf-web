@@ -1010,9 +1010,30 @@ h2 em {
   font-size: clamp(42px, 5vw, 66px);
 }
 
-.partner-panel > p {
+.partner-support p {
   margin-bottom: 0;
   color: var(--muted);
+}
+
+.partner-logos {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.partner-logo {
+  display: block;
+  height: auto;
+}
+
+.partner-logo-mapubi {
+  width: 64px;
+}
+
+.partner-logo-help-alliance {
+  width: min(150px, 100%);
 }
 
 .button-light {
@@ -1089,6 +1110,22 @@ h2 em {
 
 .footer-bottom p {
   margin: 0;
+}
+
+.footer-partner-logos {
+  gap: 14px;
+  margin-top: 0;
+}
+
+.footer-partner-logos .partner-logo-mapubi {
+  width: 46px;
+}
+
+.footer-partner-logos .partner-logo-help-alliance {
+  width: min(120px, 100%);
+  padding: 6px;
+  border-radius: 3px;
+  background: white;
 }
 
 .reveal {
